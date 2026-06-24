@@ -10,62 +10,62 @@
   <link rel="stylesheet" href="login.css" />
 </head>
 <body>
-  <a href="index.html" class="back">‹ voltar</a>
+  <a href="index.html" class="link_voltar">‹ voltar</a>
 
-  <main class="login-wrap">
-    <div class="card">
-      <div class="visual">
-        <div class="visual-bg"></div>
-        <div class="visual-content">
-          <div class="rv-logo">
+  <main class="pagina_login">
+    <div class="caixa_login">
+      <div class="lado_esquerdo">
+        <div class="fundo_imagem"></div>
+        <div class="conteudo_esquerdo">
+          <div class="logo_site">
             <span class="rota">Rota</span>
             <span class="viva">Viva</span>
           </div>
-          <h2 class="tagline">Viaje e <em>seja feliz</em>.</h2>
-          <p class="sub">Entre na sua conta e continue planejando sua próxima aventura.</p>
-          <div class="floaties">
-            <span class="f f1">✈</span>
-            <span class="f f2">🏝</span>
-            <span class="f f3">🛏</span>
-            <span class="f f4">🎫</span>
+          <h2 class="frase_login">Viaje e <em>seja feliz</em>.</h2>
+          <p class="texto_pequeno">Entre na sua conta e continue planejando sua próxima aventura.</p>
+          <div class="icones_viagem">
+            <span class="icone1">✈</span>
+            <span class="icone2">🏝</span>
+            <span class="icone3">🛏</span>
+            <span class="icone4">🎫</span>
           </div>
         </div>
       </div>
 
-      <form class="form" onsubmit="event.preventDefault()">
+      <form class="form_login" onsubmit="event.preventDefault()">
         <h1>Bem-vindo de volta</h1>
-        <p class="hello">Entre com seu e-mail e senha para acessar.</p>
+        <p class="texto_intro">Entre com seu e-mail e senha para acessar.</p>
 
-        <label class="field">
+        <label class="campo">
           <span>E-mail</span>
           <input type="email" placeholder="voce@email.com" required />
         </label>
 
-        <label class="field">
+        <label class="campo">
           <span>Senha</span>
           <input type="password" placeholder="••••••••" required />
         </label>
 
-        <div class="row">
-          <label class="check">
+        <div class="linha_opcoes">
+          <label class="label_checkbox">
             <input type="checkbox" />
-            <span class="box"></span>
+            <span class="quadrado_checkbox"></span>
             Lembrar de mim
           </label>
-          <a href="#" class="link">Esqueci minha senha</a>
+          <a href="#" class="link_senha">Esqueci minha senha</a>
         </div>
 
-        <button type="submit" class="btn">Entrar</button>
+        <button type="submit" class="botao_entrar">Entrar</button>
 
-        <div class="divider"><span>ou continue com</span></div>
+        <div class="linha_meio"><span>ou continue com</span></div>
 
-        <div class="socials">
-          <button type="button" class="soc">G</button>
-          <button type="button" class="soc">f</button>
-          <button type="button" class="soc"></button>
+        <div class="botoes_redes">
+          <button type="button" class="botao_rede">G</button>
+          <button type="button" class="botao_rede">f</button>
+          <button type="button" class="botao_rede">🍎</button>
         </div>
 
-        <p class="signup">Ainda não tem conta? <a href="#">Cadastre-se</a></p>
+        <p class="texto_cadastro">Ainda não tem conta? <a href="#">Cadastre-se</a></p>
       </form>
     </div>
   </main>

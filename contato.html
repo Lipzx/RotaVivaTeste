@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato — Rota Viva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topo">
+    <a href="index.html" class="logo_site">
+      <span class="rota">Rota</span>
+      <span class="viva">Viva</span>
+    </a>
+    <nav class="menu_links">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <a class="botao_login" href="login.html">
+      <span class="icone_login">👤</span> Login
+    </a>
+  </header>
+
+  <main class="pagina_contato">
+    <h1 class="titulo_contato">Fale conosco</h1>
+    <p class="texto_contato">
+      Tem dúvidas sobre pacotes, reservas ou destinos? Preencha o formulário abaixo
+      que a equipe da Rota Viva responde o mais rápido possível.
+    </p>
+
+    <div class="caixa_contato">
+      <form class="form_contato" onsubmit="event.preventDefault(); alert('Mensagem enviada! (simulação para o projeto escolar)');">
+        <h2>Envie uma mensagem</h2>
+
+        <label class="campo">
+          <span>Nome completo</span>
+          <input type="text" placeholder="Seu nome" required />
+        </label>
+
+        <label class="campo">
+          <span>E-mail</span>
+          <input type="email" placeholder="voce@email.com" required />
+        </label>
+
+        <label class="campo">
+          <span>Assunto</span>
+          <input type="text" placeholder="Ex: Pacote para Salvador" required />
+        </label>
+
+        <label class="campo">
+          <span>Mensagem</span>
+          <textarea placeholder="Escreva sua dúvida ou pedido aqui..." required></textarea>
+        </label>
+
+        <button type="submit" class="botao_enviar">Enviar mensagem</button>
+      </form>
+
+      <div class="info_contato">
+        <h2>Outras formas de contato</h2>
+        <ul class="lista_info">
+          <li><strong>Telefone:</strong> (11) 4002-8922</li>
+          <li><strong>E-mail:</strong> contato@rotaviva.com.br</li>
+          <li><strong>WhatsApp:</strong> (11) 99999-0000</li>
+          <li><strong>Horário:</strong> Seg a Sex, 9h às 18h</li>
+          <li><strong>Endereço:</strong> Av. Paulista, 1000 — São Paulo, SP</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <nav class="links_rodape">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <p>© 2026 Rota Viva — Viaje e seja feliz.</p>
+  </footer>
+</body>
+</html>
