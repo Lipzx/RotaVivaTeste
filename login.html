@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login — Rota Viva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <a href="index.html" class="link_voltar">‹ voltar</a>
+
+  <main class="pagina_login">
+    <div class="caixa_login">
+      <div class="lado_esquerdo">
+        <div class="fundo_imagem"></div>
+        <div class="conteudo_esquerdo">
+          <div class="logo_site">
+            <span class="rota">Rota</span>
+            <span class="viva">Viva</span>
+          </div>
+          <h2 class="frase_login">Viaje e <em>seja feliz</em>.</h2>
+          <p class="texto_pequeno">Entre na sua conta e continue planejando sua próxima aventura.</p>
+          <div class="icones_viagem">
+            <span class="icone1">✈</span>
+            <span class="icone2">🏝</span>
+            <span class="icone3">🛏</span>
+            <span class="icone4">🎫</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="form_login" onsubmit="event.preventDefault()">
+        <h1>Bem-vindo de volta</h1>
+        <p class="texto_intro">Entre com seu e-mail e senha para acessar.</p>
+
+        <label class="campo">
+          <span>E-mail</span>
+          <input type="email" placeholder="voce@email.com" required />
+        </label>
+
+        <label class="campo">
+          <span>Senha</span>
+          <input type="password" placeholder="••••••••" required />
+        </label>
+
+        <div class="linha_opcoes">
+          <label class="label_checkbox">
+            <input type="checkbox" />
+            <span class="quadrado_checkbox"></span>
+            Lembrar de mim
+          </label>
+          <a href="#" class="link_senha">Esqueci minha senha</a>
+        </div>
+
+        <button type="submit" class="botao_entrar">Entrar</button>
+
+        <div class="linha_meio"><span>ou continue com</span></div>
+
+        <div class="botoes_redes">
+          <button type="button" class="botao_rede"></button>
+          <button type="button" class="botao_rede"></button>
+          <button type="button" class="botao_rede"></button>
+        </div>
+
+        <p class="texto_cadastro">Ainda não tem conta? <a href="#">Cadastre-se</a></p>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

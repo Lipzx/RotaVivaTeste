@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rota Viva — Viaje e Seja Feliz</title>
+  <meta name="description" content="Pacotes completos de viagem: voos, hotéis, ingressos e locação de carro." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topo">
+    <a href="index.html" class="logo_site">
+      <span class="rota">Rota</span>
+      <span class="viva">Viva</span>
+    </a>
+    <nav class="menu_links">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <a class="botao_login" href="login.html">
+      <span class="icone_login">👤</span> Login
+    </a>
+  </header>
+
+  <section class="area_carrossel">
+    <button type="button" class="seta_esquerda" aria-label="Slide anterior">‹</button>
+    <button type="button" class="seta_direita" aria-label="Próximo slide">›</button>
+    <div class="todos_slides">
+      <div class="slide ativo">
+        <div class="foto_slide"><div class="nome_cidade">Rio de Janeiro</div></div>
+        <div class="texto_slide">
+          <h2><strong>Descubra Rio de Janeiro</strong> com pacotes completos e viva uma experiência completa!</h2>
+          <div class="tag_pacote">✈ + 🛏 Pacotes</div>
+          <div class="texto_pacote">
+            <span class="titulo_pacote">Pacotes</span>
+            (Voo saindo de São Paulo + 5 dias e 4 noites no Hotel Windsor Excelsior Copacabana com café da manhã)
+          </div>
+          <div class="linha_preco">
+            <span class="label_preco">a partir de</span>
+            <span class="parcelas">10x de</span>
+            <span class="preco_grande">R$ 308<small>,98*</small></span>
+          </div>
+          <div class="preco_vista">ou R$ 3.089,86 à vista, por pessoa.</div>
+          <button type="button" class="botao_reservar">Reserve já</button>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="foto_slide"><div class="nome_cidade">Salvador</div></div>
+        <div class="texto_slide">
+          <h2><strong>Curta Salvador</strong> com sol, mar e cultura nordestina!</h2>
+          <div class="tag_pacote">✈ + 🛏 Pacotes</div>
+          <div class="texto_pacote">
+            <span class="titulo_pacote">Pacotes</span>
+            (Voo + 4 dias e 3 noites em resort all inclusive no Porto da Barra)
+          </div>
+          <div class="linha_preco">
+            <span class="label_preco">a partir de</span>
+            <span class="parcelas">10x de</span>
+            <span class="preco_grande">R$ 279<small>,50*</small></span>
+          </div>
+          <div class="preco_vista">ou R$ 2.795,00 à vista, por pessoa.</div>
+          <button type="button" class="botao_reservar">Reserve já</button>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="foto_slide"><div class="nome_cidade">Fernando de Noronha</div></div>
+        <div class="texto_slide">
+          <h2><strong>Conheça Noronha</strong> paraíso ecológico em pacote completo!</h2>
+          <div class="tag_pacote">✈ + 🛏 Pacotes</div>
+          <div class="texto_pacote">
+            <span class="titulo_pacote">Pacotes</span>
+            (Voo + 5 dias e 4 noites em pousada premium + passeio de barco)
+          </div>
+          <div class="linha_preco">
+            <span class="label_preco">a partir de</span>
+            <span class="parcelas">12x de</span>
+            <span class="preco_grande">R$ 489<small>,00*</small></span>
+          </div>
+          <div class="preco_vista">ou R$ 5.868,00 à vista, por pessoa.</div>
+          <button type="button" class="botao_reservar">Reserve já</button>
+        </div>
+      </div>
+    </div>
+    <div class="bolinhas">
+      <button type="button" class="bolinha ativo" data-indice="0" aria-label="Slide 1"></button>
+      <button type="button" class="bolinha" data-indice="1" aria-label="Slide 2"></button>
+      <button type="button" class="bolinha" data-indice="2" aria-label="Slide 3"></button>
+    </div>
+  </section>
+
+  <section class="area_categorias">
+    <div class="caixa_categorias">
+      <h2 class="titulo_categorias">Viajar e ser feliz. O resto a gente faz por você!</h2>
+      <div class="lista_categorias">
+        <div class="box_categoria avioes"><span>AVIÕES</span></div>
+        <div class="box_categoria ingressos"><span>INGRESSOS</span></div>
+        <div class="box_categoria locacao"><span>LOCAÇÃO</span></div>
+        <div class="box_categoria hoteis"><span>HOTÉIS</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="area_depoimentos">
+    <div class="caixa_depoimentos">
+      <div class="fotos_avaliacao">
+        <div class="foto_avaliacao foto1"></div>
+        <div class="foto_avaliacao foto2"></div>
+        <div class="foto_avaliacao foto3"></div>
+      </div>
+      <div class="lista_avaliacoes">
+        <div class="box_avaliacao">
+          <div class="nome_pessoa">Anônimo</div>
+          <div class="estrelas">★ ★ ★ ★ ★</div>
+          <p>Adoramos o apartamento! Muito confortável e perto de tudo. Recomendo!</p>
+        </div>
+        <div class="box_avaliacao">
+          <div class="nome_pessoa">Anônimo</div>
+          <div class="estrelas">★ ★ ★ ★ ★</div>
+          <p>A viagem dos sonhos! As crianças amaram e os ingressos funcionaram perfeitamente.</p>
+        </div>
+        <div class="box_avaliacao">
+          <div class="nome_pessoa">Anônimo</div>
+          <div class="estrelas">★ ★ ★ ★ ★</div>
+          <p>Cruzeiro incrível, serviço de primeira. A locação de carro na parada foi super fácil.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <nav class="links_rodape">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <p>© 2026 Rota Viva — Viaje e seja feliz.</p>
+  </footer>
+
+  <script src="carrossel.js"></script>
+</body>
+</html>
